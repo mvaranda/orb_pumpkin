@@ -1,0 +1,191 @@
+fileFormatVersion: 2
+guid: bd8cce59216a54780830e5eaf680ed1b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: arrow
+    100002: floor
+    100004: foot1
+    100006: foot2
+    100008: foot3
+    100010: foot4
+    100012: //RootNode
+    100014: MainCamera
+    100016: osc
+    100018: pumpkin
+    100020: pumpkin_left
+    100022: pumpkin_right
+    100024: roof_data
+    100026: spectrum
+    100028: Sun
+    100030: table
+    100032: upper
+    100034: upper_vertival
+    100036: wall
+    400000: arrow
+    400002: floor
+    400004: foot1
+    400006: foot2
+    400008: foot3
+    400010: foot4
+    400012: //RootNode
+    400014: MainCamera
+    400016: osc
+    400018: pumpkin
+    400020: pumpkin_left
+    400022: pumpkin_right
+    400024: roof_data
+    400026: spectrum
+    400028: Sun
+    400030: table
+    400032: upper
+    400034: upper_vertival
+    400036: wall
+    2000000: MainCamera
+    2100000: floor_mat
+    2100002: Arch_mat
+    2100004: orb_red
+    2100006: black
+    2100008: orange
+    2100010: green
+    2100012: roof_mat
+    2100014: spectrum_mat
+    2100016: osc_mat
+    2100018: No Name
+    2300000: arrow
+    2300002: floor
+    2300004: foot1
+    2300006: foot2
+    2300008: foot3
+    2300010: foot4
+    2300012: osc
+    2300014: pumpkin
+    2300016: pumpkin_left
+    2300018: pumpkin_right
+    2300020: roof_data
+    2300022: spectrum
+    2300024: table
+    2300026: upper
+    2300028: upper_vertival
+    2300030: wall
+    3300000: arrow
+    3300002: floor
+    3300004: foot1
+    3300006: foot2
+    3300008: foot3
+    3300010: foot4
+    3300012: osc
+    3300014: pumpkin
+    3300016: pumpkin_left
+    3300018: pumpkin_right
+    3300020: roof_data
+    3300022: spectrum
+    3300024: table
+    3300026: upper
+    3300028: upper_vertival
+    3300030: wall
+    4300000: floor
+    4300002: foot2
+    4300004: foot4
+    4300006: wall
+    4300008: upper_vertival
+    4300010: upper
+    4300012: foot3
+    4300014: foot1
+    4300016: table
+    4300018: pumpkin_left
+    4300020: pumpkin
+    4300022: pumpkin_right
+    4300024: roof_data
+    4300026: spectrum
+    4300028: osc
+    4300030: arrow
+    7400000: arrow|CylinderAction
+    9500000: //RootNode
+    10800000: Sun
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
