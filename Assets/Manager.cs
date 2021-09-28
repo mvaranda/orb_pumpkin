@@ -136,7 +136,7 @@ public class Manager : MonoBehaviour
 
 
     float t;
-    int NUM_ARROWS = 2; //50;
+    int NUM_ARROWS = 50;
     int arrows;
     int score = 0;
     ArchParentActions archParentActions;
