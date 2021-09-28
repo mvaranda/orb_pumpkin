@@ -33,7 +33,7 @@ public class UIScript : MonoBehaviour
     public Button newGame_bt;
     public Button share_bt;
     public Button mute_bt;
-    public InputField nickname_ed;
+//    public InputField nickname_ed;
     Vector3 newGame_bt_pos;
     Vector3 share_bt_pos;
     Vector3 nickname_ed_pos;
@@ -63,8 +63,8 @@ public class UIScript : MonoBehaviour
             
         }
 
-        nickname_ed = GetComponentInChildren<InputField>();
-        nickname_ed_pos = nickname_ed.transform.position;
+//        nickname_ed = GetComponentInChildren<InputField>();
+//        nickname_ed_pos = nickname_ed.transform.position;
 
         Button[] all_buttons = GetComponentsInChildren<Button>();
         ////Debug.Log("all_buttons len = " + all_buttons.Length.ToString());
@@ -103,17 +103,17 @@ public class UIScript : MonoBehaviour
             Vector3 hidepos = new Vector3(share_bt_pos.x, share_bt_pos.y - 1000f, share_bt_pos.z);
             newGame_bt.transform.position = hidepos;
             share_bt.transform.position = hidepos;
-            nickname_ed.transform.position = hidepos;
+ //           nickname_ed.transform.position = hidepos;
             gameOver_txt.text = "";
         }
         else
         {
             newGame_bt.transform.position = newGame_bt_pos;
-            if (getNickname().Length > 0)
-            {
-                share_bt.transform.position = share_bt_pos;
-            }
-            nickname_ed.transform.position = nickname_ed_pos;
+//            if (getNickname().Length > 0)
+//            {
+//                share_bt.transform.position = share_bt_pos;
+//            }
+//            nickname_ed.transform.position = nickname_ed_pos;
             gameOver_txt.text = "Game Over";
         }
 
@@ -141,7 +141,7 @@ public class UIScript : MonoBehaviour
 
     public string getNickname()
     {
-        return nickname_ed.text;
+        return "dummy"; //nickname_ed.text;
     }
 
     // Update is called once per frame

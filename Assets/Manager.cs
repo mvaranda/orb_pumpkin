@@ -136,7 +136,7 @@ public class Manager : MonoBehaviour
 
 
     float t;
-    int NUM_ARROWS = 50;
+    int NUM_ARROWS = 2; //50;
     int arrows;
     int score = 0;
     ArchParentActions archParentActions;
@@ -483,7 +483,7 @@ public class Manager : MonoBehaviour
     {
         //Debug.Log("Lets Mute/Unmute");
     }
-    string SHARE_URL = "http://www.cglabs.ca/score.php/";
+    string SHARE_URL = "http://www.varanda.ca/score.php/";
     //string SHARE_URL = "http://www.cglabs.ca/score.php"; // for using upload
 
     public void onShareButton()
